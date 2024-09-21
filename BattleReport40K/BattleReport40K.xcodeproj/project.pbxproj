@@ -10,7 +10,6 @@
 		B088544F2C9EBCF4009C375D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088544E2C9EBCF4009C375D /* AppDelegate.swift */; };
 		B08854512C9EBCF4009C375D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08854502C9EBCF4009C375D /* SceneDelegate.swift */; };
 		B08854532C9EBCF4009C375D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08854522C9EBCF4009C375D /* ViewController.swift */; };
-		B08854562C9EBCF4009C375D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B08854552C9EBCF4009C375D /* Base */; };
 		B08854582C9EBCF7009C375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08854572C9EBCF7009C375D /* Assets.xcassets */; };
 		B088545B2C9EBCF7009C375D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B088545A2C9EBCF7009C375D /* Base */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		B088544E2C9EBCF4009C375D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B08854502C9EBCF4009C375D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B08854522C9EBCF4009C375D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B08854552C9EBCF4009C375D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08854572C9EBCF7009C375D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B088545A2C9EBCF7009C375D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B088545C2C9EBCF7009C375D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				B088544E2C9EBCF4009C375D /* AppDelegate.swift */,
 				B08854502C9EBCF4009C375D /* SceneDelegate.swift */,
 				B08854522C9EBCF4009C375D /* ViewController.swift */,
-				B08854542C9EBCF4009C375D /* Main.storyboard */,
 				B08854572C9EBCF7009C375D /* Assets.xcassets */,
 				B08854592C9EBCF7009C375D /* LaunchScreen.storyboard */,
 				B088545C2C9EBCF7009C375D /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				B08854582C9EBCF7009C375D /* Assets.xcassets in Resources */,
 				B088545B2C9EBCF7009C375D /* Base in Resources */,
-				B08854562C9EBCF4009C375D /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B08854542C9EBCF4009C375D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B08854552C9EBCF4009C375D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B08854592C9EBCF7009C375D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +285,7 @@
 				INFOPLIST_FILE = BattleReport40K/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +317,7 @@
 				INFOPLIST_FILE = BattleReport40K/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
